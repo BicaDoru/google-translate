@@ -62,7 +62,7 @@ def handle_client(client_socket, addr):
         client_socket.send(f"{lang}: {translation}\n".encode('utf-8'))
     client_socket.close()
 
-host = '172.19.23.203'
+host = 'xxx.xxx.xxx.xxx'
 port = 8886
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
