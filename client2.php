@@ -1,6 +1,6 @@
 <?php
 
-$host = '172.19.23.203';
+$host = 'xxx.xxx.xxx.xxx';
 $port = 8886;
 
 $socket = socket_create(AF_INET, SOCK_STREAM, 0) or die("Could not create socket\n");
